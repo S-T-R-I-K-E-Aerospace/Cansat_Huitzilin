@@ -1,0 +1,56 @@
+# KiCad general
+*.bak
+*.bck
+*.tmp
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.000
+*~
+
+# Directorios temporales y de caché
+_autosave-*
+*-backups/
+fp-info-cache
+sym-lib-table-bak
+__pycache__/
+
+# Archivos de caché generados
+*.dcm
+*.net
+*.xml
+*.cmp
+*.pro
+*.kicad_pcb-bak
+*-cache.lib
+*-cache.kicad_sym
+*-rescue.kicad_sch
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Archivos de simulación y fabricación
+*.csv
+*.pos
+*.gbr
+*.gtp
+*.gts
+*.gto
+*.gm*
+*.drl
+*.zip
+*.pdf
+*.step
+*.stp
+
+# Archivos de configuración local
+*.kicad_wks
+*.ini
+*.cfg
+
+# Archivos de proyecto locales (no necesarios para versionar)
+fp-lib-table
+sym-lib-table
