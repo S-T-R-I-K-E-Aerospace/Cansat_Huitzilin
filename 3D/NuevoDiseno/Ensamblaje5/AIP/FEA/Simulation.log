@@ -1,0 +1,12 @@
+﻿El estudio Análisis estático:1 ha empezado: 16/11/2025, 02:39:58 a. m.
+Número de configuraciones: 1
+Malla por defecto: 82689 elementos, 146048 nodos
+Un modelo se separa en sus 2 componentes independientes
+Se ha añadido un muelle de variación no proporcional
+La deformación es grande en comparación con el tamaño del modelo. Verifique que las configuraciones de carga y restricción estén correctamente escaladas.
+Tiempo de solución 4.9
+Tasa de convergencia: 50%
+Se ha alcanzado el número total de refinados h 
+El estudio Análisis estático:1 ha terminado: 16/11/2025, 02:40:04 a. m.
+Tiempo total 0:00:06
+
