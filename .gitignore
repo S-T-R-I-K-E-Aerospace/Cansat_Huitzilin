@@ -15,6 +15,7 @@ fp-info-cache
 sym-lib-table-bak
 __pycache__/
 OldVersions/
+Print/
 
 # Archivos de caché generados
 *.dcm
