@@ -4385,6 +4385,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4396,6 +4397,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8975,6 +8977,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8986,6 +8989,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12295,6 +12299,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12306,6 +12311,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14637,7 +14643,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.2)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -15580,7 +15586,7 @@
 			(uuid "2aa2dc11-9129-4261-b3c1-82d3dac2ac0e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S2-MINI-1U.step"
+		(model "D:/SamacSys_Parts.3dshapes/ESP32-S3-MINI-1U-N8.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15588,7 +15594,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -15606,6 +15612,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15617,6 +15624,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22262,6 +22270,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22273,6 +22282,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22985,6 +22995,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -22997,6 +23008,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -23311,6 +23323,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -23323,6 +23336,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
