@@ -5,11 +5,12 @@
 	(uuid "18d5f2ce-1352-46f2-8263-718c8f7c4b8a")
 	(paper "A3")
 	(title_block
-		(title "Cansat")
-		(date "2025-11-20")
-		(rev "V1")
-		(company "S.T.R.I.K.E.")
-		(comment 1 "Cansat")
+		(title "SCH_Cansat-Huitzilin")
+		(date "2026-03-07")
+		(rev "v1.0")
+		(company "S.T.R.I.K.E. Aerospace")
+		(comment 3 "Tech. Review by : Victor Sánchez")
+		(comment 4 "Design by: Jorge Rincón")
 	)
 	(lib_symbols
 		(symbol "AP64501SP-13:AP64501SP-13"
@@ -5757,194 +5758,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:PTS526SM15SMTR2_LFS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 26.67 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "PTS526SM15SMTR2_LFS"
-				(at 26.67 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "PTS526SM15SMTR2LFS"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.65"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "611-PTS526SM15SMTR2L"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526SM15SMTR2-LFS?qs=Imq1NPwxi75LpUh6FiCy2w%3D%3D"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "C & K COMPONENTS"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "PTS526SM15SMTR2 LFS"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "PTS526SM15SMTR2_LFS_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "COM_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "NO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "COM_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "NO_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys_Parts:SHT40-AD1B-R2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6627,6 +6440,156 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7848,6 +7811,12 @@
 		(uuid "72df8f7a-a5e8-4593-802c-71433c1a56f9")
 	)
 	(junction
+		(at 374.65 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7503ae33-37fb-480f-bd90-0572c1a2d116")
+	)
+	(junction
 		(at 50.8 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8006,10 +7975,6 @@
 		(uuid "490d03c1-b4cf-42a0-9cfb-a868059d3e97")
 	)
 	(no_connect
-		(at 405.13 198.12)
-		(uuid "4f05796b-d3df-407a-92e8-9ec86a634182")
-	)
-	(no_connect
 		(at 316.23 48.26)
 		(uuid "512e011e-a9b3-4a64-9537-cf28f17b3afc")
 	)
@@ -8030,24 +7995,12 @@
 		(uuid "7878ced0-b3d4-4eeb-a569-7c28b809ec83")
 	)
 	(no_connect
-		(at 194.31 129.54)
-		(uuid "9f66be05-e744-40eb-b60f-55b3b84cf6c5")
-	)
-	(no_connect
 		(at 220.98 196.85)
 		(uuid "b434d63d-74ae-40c9-b3e9-d8bae326a832")
 	)
 	(no_connect
 		(at 102.87 170.18)
 		(uuid "bbf9d619-bf64-4817-b960-c7eb5c8a5636")
-	)
-	(no_connect
-		(at 194.31 127)
-		(uuid "bce47704-a05c-4d66-aa87-0629b524473a")
-	)
-	(no_connect
-		(at 405.13 195.58)
-		(uuid "c5217837-1cb7-4bde-814b-948dae5233ea")
 	)
 	(no_connect
 		(at 281.94 123.19)
@@ -8114,16 +8067,6 @@
 			(type default)
 		)
 		(uuid "04211cb2-88b4-4f2e-bf86-cb10ecbe3981")
-	)
-	(wire
-		(pts
-			(xy 374.65 191.77) (xy 374.65 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0527a379-eae5-42b4-ae4b-f5af3cc26f49")
 	)
 	(wire
 		(pts
@@ -8334,6 +8277,16 @@
 			(type default)
 		)
 		(uuid "21d88a1b-e366-4274-a59c-39121ed3a202")
+	)
+	(wire
+		(pts
+			(xy 378.46 194.31) (xy 374.65 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21fe86de-9759-4e46-9512-0186dcd87b35")
 	)
 	(wire
 		(pts
@@ -8697,16 +8650,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 198.12) (xy 374.65 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ac0ce68-88cc-441f-95b6-4e31f88999e8")
-	)
-	(wire
-		(pts
 			(xy 400.05 116.84) (xy 400.05 104.14)
 		)
 		(stroke
@@ -8797,6 +8740,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 191.77) (xy 374.65 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b8a2c4-05a8-4986-9937-b5cff6ea664e")
+	)
+	(wire
+		(pts
 			(xy 158.75 38.1) (xy 165.1 38.1)
 		)
 		(stroke
@@ -8844,16 +8797,6 @@
 			(type default)
 		)
 		(uuid "59f5e380-ecee-42bd-9f32-f554e0168d85")
-	)
-	(wire
-		(pts
-			(xy 163.83 129.54) (xy 163.83 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cc6bb42-d89c-4b84-b0b8-271737fd1349")
 	)
 	(wire
 		(pts
@@ -9557,6 +9500,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 132.08) (xy 173.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4af90cc-fa30-4afe-a50c-ce2da39816be")
+	)
+	(wire
+		(pts
 			(xy 132.08 38.1) (xy 132.08 40.64)
 		)
 		(stroke
@@ -9617,7 +9570,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 132.08) (xy 160.02 132.08)
+			(xy 160.02 132.08) (xy 173.99 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9654,16 +9607,6 @@
 			(type default)
 		)
 		(uuid "bfffcdaa-88ea-40b6-a553-67efa4679a1e")
-	)
-	(wire
-		(pts
-			(xy 163.83 127) (xy 163.83 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c10b923d-9d82-48c7-bf2f-d612ae31466a")
 	)
 	(wire
 		(pts
@@ -9887,6 +9830,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 194.31) (xy 373.38 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22a9844-c6ac-41bc-8ea1-710c00b3468f")
+	)
+	(wire
+		(pts
 			(xy 30.48 40.64) (xy 34.29 40.64)
 		)
 		(stroke
@@ -9894,6 +9847,16 @@
 			(type default)
 		)
 		(uuid "d3109502-c9bf-40cf-8d36-e0a08978d634")
+	)
+	(wire
+		(pts
+			(xy 391.16 194.31) (xy 388.62 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31c77b1-6a08-4815-8acb-5a4015b0445a")
 	)
 	(wire
 		(pts
@@ -9954,6 +9917,16 @@
 			(type default)
 		)
 		(uuid "d5ba29f0-3a65-4430-b20b-5047b79c8164")
+	)
+	(wire
+		(pts
+			(xy 391.16 194.31) (xy 391.16 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67728f2-b9fe-40a4-8b31-fe3239f77091")
 	)
 	(wire
 		(pts
@@ -10204,16 +10177,6 @@
 			(type default)
 		)
 		(uuid "ff03b54e-a43e-4a4c-960d-ed9decca17eb")
-	)
-	(wire
-		(pts
-			(xy 373.38 201.93) (xy 373.38 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff51df29-03cc-48f4-a38a-56918025d7fb")
 	)
 	(global_label "RX"
 		(shape input)
@@ -10899,7 +10862,7 @@
 	)
 	(global_label "BOOT"
 		(shape input)
-		(at 374.65 195.58 180)
+		(at 373.38 194.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10909,7 +10872,7 @@
 		)
 		(uuid "7c7253ce-68c5-44a0-8372-3aedb29939f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.7662 195.58 0)
+			(at 365.4962 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13468,6 +13431,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 383.54 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a4c4648-7d02-4a69-b924-36a949498349")
+		(property "Reference" "SW3"
+			(at 383.54 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 383.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem"
+			(at 383.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 383.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 383.54 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30adf3a0-0add-423a-a6aa-993633b8d57f")
+		)
+		(pin "2"
+			(uuid "d9f16869-329c-48f6-a766-d0331b8ec38d")
+		)
+		(instances
+			(project "Cansat_Huitzilin"
+				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 318.77 115.57 0)
 		(unit 1)
@@ -13792,72 +13823,6 @@
 			(project ""
 				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 373.38 201.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "399b32f4-38e9-42c7-a95a-f36074daa17c")
-		(property "Reference" "#PWR078"
-			(at 373.38 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 373.38 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 373.38 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17bb547e-1cbb-49ad-83ad-abe29940a015")
-		)
-		(instances
-			(project "Cansat_v1"
-				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
-					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -16141,132 +16106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:PTS526SM15SMTR2_LFS")
-		(at 163.83 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74dd2625-3547-4f2a-93ef-4246c821316a")
-		(property "Reference" "S1"
-			(at 179.07 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PTS526SM15SMTR2_LFS"
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PTS526SM15SMTR2LFS"
-			(at 190.5 221.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-			(at 190.5 321.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator"
-			(at 163.83 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.65"
-			(at 190.5 521.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "611-PTS526SM15SMTR2L"
-			(at 190.5 621.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526SM15SMTR2-LFS?qs=Imq1NPwxi75LpUh6FiCy2w%3D%3D"
-			(at 190.5 721.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at 190.5 821.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PTS526SM15SMTR2 LFS"
-			(at 190.5 921.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "7903cb1a-44cb-4038-957b-0901d51b0cd8")
-		)
-		(pin "3"
-			(uuid "ec110fd1-dae3-4d21-baa5-bca3739956be")
-		)
-		(pin "2"
-			(uuid "91c414cf-2d48-4120-a89d-83e47a816237")
-		)
-		(pin "1"
-			(uuid "07d5c0c2-367d-4264-91f1-d90507102be9")
-		)
-		(instances
-			(project ""
-				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 160.02 134.62 0)
 		(unit 1)
@@ -16533,132 +16372,6 @@
 			(project "Cansat_v1"
 				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:PTS526SM15SMTR2_LFS")
-		(at 374.65 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cb20730-01be-4ab6-8c1a-0afbb96147c5")
-		(property "Reference" "S2"
-			(at 389.89 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PTS526SM15SMTR2_LFS"
-			(at 389.89 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PTS526SM15SMTR2LFS"
-			(at 401.32 290.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
-			(at 401.32 390.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator"
-			(at 374.65 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.65"
-			(at 401.32 590.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "611-PTS526SM15SMTR2L"
-			(at 401.32 690.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526SM15SMTR2-LFS?qs=Imq1NPwxi75LpUh6FiCy2w%3D%3D"
-			(at 401.32 790.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at 401.32 890.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PTS526SM15SMTR2 LFS"
-			(at 401.32 990.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "23ec6694-98e5-48f7-ad25-a1bdfa6048d4")
-		)
-		(pin "3"
-			(uuid "21a221bc-c980-4317-a61b-27d917614f06")
-		)
-		(pin "2"
-			(uuid "a0ed666b-aea1-4560-9aec-055ee7249b94")
-		)
-		(pin "1"
-			(uuid "6660beb2-742e-4ff4-a034-78a3a6c0e51d")
-		)
-		(instances
-			(project "Cansat_v1"
-				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
-					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -17517,6 +17230,74 @@
 			(project "Cansat_v1"
 				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 168.91 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c5941f9-556f-4f42-a6b0-e16830da1371")
+		(property "Reference" "SW2"
+			(at 168.91 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 168.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem"
+			(at 168.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 168.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3c04047-7558-4813-a7cc-12899d6d4f62")
+		)
+		(pin "2"
+			(uuid "605ffd4c-3e15-4eb5-8f59-8f3d35f95c57")
+		)
+		(instances
+			(project ""
+				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -22355,6 +22136,72 @@
 			(project ""
 				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 391.16 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec5c961e-28d6-459a-9978-fe1764302b73")
+		(property "Reference" "#PWR084"
+			(at 391.16 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 391.16 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 391.16 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb1b5693-de56-4aea-8490-427b669a530c")
+		)
+		(instances
+			(project "Cansat_Huitzilin"
+				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
