@@ -45,8 +45,6 @@ desktop.ini
 *.drl
 *.zip
 *.pdf
-*.step
-*.stp
 
 # Archivos de configuración local
 *.kicad_wks
