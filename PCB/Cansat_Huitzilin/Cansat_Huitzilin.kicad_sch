@@ -12018,7 +12018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BMI323"
+		(property "Footprint" "SamacSys_Parts:BMI323"
 			(at 308.61 207.95 0)
 			(effects
 				(font
@@ -12881,7 +12881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON80P400X400X100-9N-D"
+		(property "Footprint" "SamacSys_Parts:SON80P400X400X100-9N-D"
 			(at 93.98 199.06 0)
 			(effects
 				(font
@@ -13920,7 +13920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MLT8530"
+		(property "Footprint" "SamacSys_Parts:MLT8530"
 			(at 105.41 336.22 0)
 			(effects
 				(font
@@ -15020,7 +15020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM06BPASSTBTLFSN"
+		(property "Footprint" "SamacSys_Parts:SM06BPASSTBTLFSN"
 			(at 215.9 191.77 0)
 			(effects
 				(font
@@ -16837,7 +16837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA9C40P3X3_128X128X54"
+		(property "Footprint" "SamacSys_Parts:BGA9C40P3X3_128X128X54"
 			(at 381 135.56 0)
 			(effects
 				(font
@@ -17552,7 +17552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SHT40AD1BR2"
+		(property "Footprint" "SamacSys_Parts:SHT40AD1BR2"
 			(at 383.54 248.59 0)
 			(effects
 				(font
@@ -19680,7 +19680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "STCC4DR3"
+		(property "Footprint" "SamacSys_Parts:STCC4DR3"
 			(at 387.35 201.6 0)
 			(effects
 				(font
@@ -20855,7 +20855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "114993390"
+		(property "Footprint" "SamacSys_Parts:114993390"
 			(at 181.61 268.91 0)
 			(effects
 				(font
@@ -21270,7 +21270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMP581"
+		(property "Footprint" "SamacSys_Parts:BMP581"
 			(at 312.42 133.02 0)
 			(effects
 				(font
@@ -21715,7 +21715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5033981892"
+		(property "Footprint" "SamacSys_Parts:5033981892"
 			(at 109.22 290.5 0)
 			(effects
 				(font

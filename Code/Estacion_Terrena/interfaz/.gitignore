@@ -1,0 +1,37 @@
+# ============================================================
+# STRIKE Aerospace - .gitignore
+# ============================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# --- Virtual Environment ---
+cansat_env/
+
+# --- PyInstaller Build ---
+build/
+dist/
+*.spec
+installer_output/
+
+# --- Datos generados en runtime ---
+received_images/
+received_files/
+recived_files/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+Thumbs.db
+Desktop.ini
+.DS_Store

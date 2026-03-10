@@ -1,4 +1,43 @@
-# KiCad general
+# ============================================
+# .gitignore - Cansat Huitzilin
+# ============================================
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Entornos virtuales
+cansat_env/
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# PyInstaller
+*.exe
+!Code/Estacion_Terrena/interfaz/assets/*.exe
+
+# Installer output
+installer_output/
+
+# =====================
+# KiCad
+# =====================
 *.bak
 *.bck
 *.tmp
@@ -6,36 +45,17 @@
 *.kicad_sch-bak
 *.kicad_pcb-bak
 *.000
+*.gbrjob
 *~
-
-# Directorios temporales y de caché
 _autosave-*
 *-backups/
 fp-info-cache
 sym-lib-table-bak
-__pycache__/
-OldVersions/
-Print/
-
-# Archivos de caché generados
-*.dcm
-*.net
-*.xml
-*.cmp
-*.pro
-*.kicad_pcb-bak
 *-cache.lib
 *-cache.kicad_sym
 *-rescue.kicad_sch
 
-# Archivos generados por el sistema operativo
-.DS_Store
-Thumbs.db
-ehthumbs.db
-desktop.ini
-
-# Archivos de simulación y fabricación
-*.csv
+# Archivos generados de fabricación KiCad
 *.pos
 *.gbr
 *.gtp
@@ -43,14 +63,66 @@ desktop.ini
 *.gto
 *.gm*
 *.drl
-*.zip
+
+# =====================
+# Autodesk Inventor / CAD
+# =====================
+OldVersions/
+*.ipt.bak
+*.iam.bak
+*.idw.bak
+*.ipn.bak
+Design\ Cache/
+
+
+
+# =====================
+# Documentos generados
+# =====================
 *.pdf
 
+# =====================
 # Archivos de configuración local
-*.kicad_wks
+# =====================
 *.ini
 *.cfg
+*.kicad_wks
 
-# Archivos de proyecto locales (no necesarios para versionar)
+# Tablas de librerías locales KiCad
 fp-lib-table
 sym-lib-table
+
+# =====================
+# Archivos del sistema operativo
+# =====================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# =====================
+# IDE / Editor
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# =====================
+# Datos de ejecución (runtime)
+# =====================
+received_images/
+recived_files/
+
+# =====================
+# Gemini / AI assistant
+# =====================
+.gemini/
+.agents/
