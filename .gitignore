@@ -3,24 +3,21 @@
 # ============================================
 
 # =====================
-# Python
+# Estacion Terrena GUI (Python / Flet / PySide6)
 # =====================
+# Cache y compilados de Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 *.pyo
 *.pyd
+*.c
 *.egg
 *.egg-info/
-dist/
-build/
-*.manifest
-*.spec
-pip-log.txt
-pip-delete-this-directory.txt
+.pytest_cache/
 
-# Entornos virtuales
+# Entornos virtuales (Ignorar todas las dependencias)
 cansat_env/
 venv/
 .venv/
@@ -28,22 +25,37 @@ env/
 .env/
 ENV/
 
-# PyInstaller
+# Archivos de empaquetado (Build/PyInstaller)
+dist/
+build/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ejecutables compilados de la GUI (exceptuando assets)
 *.exe
 !Code/Estacion_Terrena/interfaz/assets/*.exe
 
-# Installer output
+# Salida del instalador (Inno Setup / NSIS)
 installer_output/
 
+# Datos de ejecución (runtime) de la aplicación
+received_images/
+recived_files/
+*.log
+
 # =====================
-# KiCad
+# Archivos de Fabricación y Diseño (MANTENER)
 # =====================
+# KiCad archivos temporales y copias de seguridad
 *.bak
 *.bck
 *.tmp
 *.kicad_prl
 *.kicad_sch-bak
 *.kicad_pcb-bak
+*.kicad_wks
 *.000
 *.gbrjob
 *~
@@ -55,7 +67,7 @@ sym-lib-table-bak
 *-cache.kicad_sym
 *-rescue.kicad_sch
 
-# Archivos generados de fabricación KiCad
+# Archivos generados de fabricación KiCad que NO deben estar en repo si solo quieres las fuentes
 *.pos
 *.gbr
 *.gtp
@@ -64,9 +76,7 @@ sym-lib-table-bak
 *.gm*
 *.drl
 
-# =====================
-# Autodesk Inventor / CAD
-# =====================
+# Autodesk Inventor / CAD (Ignorar temporales)
 OldVersions/
 *.ipt.bak
 *.iam.bak
@@ -74,23 +84,24 @@ OldVersions/
 *.ipn.bak
 Design\ Cache/
 
-
-
-# =====================
-# Documentos generados
-# =====================
-*.pdf
-
-# =====================
-# Archivos de configuración local
-# =====================
+# Configuración y tablas locales (Opcional ignorar)
 *.ini
 *.cfg
-*.kicad_wks
-
-# Tablas de librerías locales KiCad
 fp-lib-table
 sym-lib-table
+
+# =====================
+# Documentos y Empaquetados
+# =====================
+*.pdf
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Archivos 3D pesados de exportación (opcional si no quieres trackearlos)
+# *.step
+# *.stp
 
 # =====================
 # Archivos del sistema operativo
@@ -103,7 +114,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # =====================
-# IDE / Editor
+# IDEs / Editores de texto
 # =====================
 .vscode/
 .idea/
@@ -114,12 +125,6 @@ $RECYCLE.BIN/
 .project
 .classpath
 .settings/
-
-# =====================
-# Datos de ejecución (runtime)
-# =====================
-received_images/
-recived_files/
 
 # =====================
 # Gemini / AI assistant
