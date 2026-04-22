@@ -27,7 +27,13 @@ def get_user_data_dir():
     """Retorna carpeta para datos del usuario (received_images, etc.).
     Como script: carpeta del proyecto. Como .exe: Documents/STRIKE_Aerospace."""
     if getattr(sys, 'frozen', False):
-        docs = os.path.join(os.path.expanduser('~'), 'Documents', 'STRIKE_Aerospace')
+        if sys.platform == 'win32':
+            import ctypes.wintypes
+            buf = ctypes.create_unicode_buffer(ctypes.wintypes.MAX_PATH)
+            ctypes.windll.shell32.SHGetFolderPathW(None, 5, None, 0, buf)
+            docs = os.path.join(buf.value, 'STRIKE_Aerospace')
+        else:
+            docs = os.path.join(os.path.expanduser('~'), 'Documents', 'STRIKE_Aerospace')
         os.makedirs(docs, exist_ok=True)
         return docs
     return os.path.dirname(os.path.abspath(__file__))

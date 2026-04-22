@@ -13,7 +13,7 @@
 ; ============================================================
 
 #define MyAppName "STRIKE Mission Control"
-#define MyAppVersion "1.0.1"
+#define MyAppVersion "1.0.2"
 #define MyAppPublisher "S.T.R.I.K.E Aerospace"
 #define MyAppExeName "STRIKE_Mission_Control.exe"
 

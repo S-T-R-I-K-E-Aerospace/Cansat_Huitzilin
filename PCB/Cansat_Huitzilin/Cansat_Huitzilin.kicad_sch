@@ -5758,454 +5758,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:SHT40-AD1B-R2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SHT40-AD1B-R2"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SHT40AD1BR2"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.dk/datasheet/2/682/Sensirion_10272020_Datasheet_SHT4x-1919523.pdf"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "4th Generation, High-Accuracy, Ultra Low Power, 16-Bit Relative Humidity and Temperature Sensor Platform"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.59"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "403-SHT40-AD1B-R2"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Sensirion/SHT40-AD1B-R2?qs=zW32dvEIR3scTT6A4VuzaQ%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Sensirion"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SHT40-AD1B-R2"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SHT40-AD1B-R2_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:STCC4-D-R3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 26.67 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "STCC4-D-R3"
-				(at 26.67 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "STCC4DR3"
-				(at 26.67 -84.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://sensirion.com/media/documents/6AED4B15/684A889C/CD_DS_STCC4_D1_3.pdf"
-				(at 26.67 -184.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Air Quality Sensors STCC4-D-R3 CO2 I2C, SMD ToR 1500 pcs 2.7V ~ 5.5V 950A 10C ~ 40C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.32"
-				(at 26.67 -384.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 26.67 -484.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 26.67 -584.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Sensirion"
-				(at 26.67 -684.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "STCC4-D-R3"
-				(at 26.67 -784.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "STCC4-D-R3_1_1"
-				(rectangle
-					(start 5.08 12.7)
-					(end 25.4 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "SDA_C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "ADDR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 17.78 270)
-					(length 5.08)
-					(name "SCL_C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -20.32 90)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -5.08 180)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Simulation_SPICE:NPN"
 			(pin_numbers
 				(hide yes)
@@ -7395,18 +6947,6 @@
 		(uuid 785dacc6-64e9-4cf2-b0e1-bedd2c65428b)
 	)
 	(rectangle
-		(start 345.44 83.82)
-		(end 407.67 165.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ad8b0613-2c0c-4714-b5db-6a40f766e6c6)
-	)
-	(rectangle
 		(start 12.7 12.7)
 		(end 196.85 83.82)
 		(stroke
@@ -7527,16 +7067,6 @@
 			)
 		)
 		(uuid "388e9bc6-d25b-49c5-8604-93fcd73aface")
-	)
-	(text "STCC4\n"
-		(exclude_from_sim no)
-		(at 376.428 89.154 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "465e8698-5e2f-49a1-88b4-75028dd4bfa2")
 	)
 	(text "Regulador Lineal 4v a 3.3v\n"
 		(exclude_from_sim no)
@@ -7697,12 +7227,6 @@
 		(uuid "17e9bdc2-d00d-4733-b836-c7aacbc05cd3")
 	)
 	(junction
-		(at 400.05 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19d97fd2-c0c8-436c-93cb-e7344681796c")
-	)
-	(junction
 		(at 97.79 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7737,12 +7261,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "323bec2b-3b25-4e31-b325-f60db728e7f4")
-	)
-	(junction
-		(at 400.05 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3397c1ad-4765-46b6-ac68-74d75cfb1a70")
 	)
 	(junction
 		(at 133.35 62.23)
@@ -8250,36 +7768,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 119.38) (xy 400.05 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20809b84-4da7-406d-b238-836584f8c934")
-	)
-	(wire
-		(pts
-			(xy 387.35 153.67) (xy 392.43 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "218eea6c-04bf-459c-886f-33183833628d")
-	)
-	(wire
-		(pts
-			(xy 391.16 116.84) (xy 400.05 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21d88a1b-e366-4274-a59c-39121ed3a202")
-	)
-	(wire
-		(pts
 			(xy 378.46 194.31) (xy 374.65 194.31)
 		)
 		(stroke
@@ -8417,36 +7905,6 @@
 			(type default)
 		)
 		(uuid "32c61847-eed5-48f9-9188-d9c4e308133d")
-	)
-	(wire
-		(pts
-			(xy 360.68 119.38) (xy 356.87 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34103ea5-cd86-42a9-bfc0-29eb5ab599c2")
-	)
-	(wire
-		(pts
-			(xy 360.68 125.73) (xy 360.68 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35777f70-907c-4878-a373-1e1486688bad")
-	)
-	(wire
-		(pts
-			(xy 356.87 153.67) (xy 361.95 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35d4dccf-625b-4e77-912b-c03c34db9a12")
 	)
 	(wire
 		(pts
@@ -8650,16 +8108,6 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 116.84) (xy 400.05 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ae1f2ad-de97-40c6-9a67-140a8cddc0fa")
-	)
-	(wire
-		(pts
 			(xy 278.13 120.65) (xy 281.94 120.65)
 		)
 		(stroke
@@ -8827,16 +8275,6 @@
 			(type default)
 		)
 		(uuid "5e776e63-0588-47c2-86a0-d9e97a9c96c7")
-	)
-	(wire
-		(pts
-			(xy 400.05 156.21) (xy 400.05 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e988c7a-2dd6-4da8-875e-a8344ad537e0")
 	)
 	(wire
 		(pts
@@ -9400,16 +8838,6 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 156.21) (xy 400.05 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaf394f2-a89a-406b-bdee-f83ac94348cc")
-	)
-	(wire
-		(pts
 			(xy 394.97 43.18) (xy 402.59 43.18)
 		)
 		(stroke
@@ -9617,16 +9045,6 @@
 			(type default)
 		)
 		(uuid "c193ff7a-f518-43ea-a5ac-d04c98e6600e")
-	)
-	(wire
-		(pts
-			(xy 375.92 137.16) (xy 375.92 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3427144-5be5-411b-85b6-737160d9deb5")
 	)
 	(wire
 		(pts
@@ -10040,16 +9458,6 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 119.38) (xy 400.05 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f232da72-f0f1-4d92-8ee7-0cfa0ee3dc20")
-	)
-	(wire
-		(pts
 			(xy 303.53 68.58) (xy 303.53 73.66)
 		)
 		(stroke
@@ -10110,16 +9518,6 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 119.38) (xy 356.87 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa43e216-2a1f-4d95-afcb-789868f105f0")
-	)
-	(wire
-		(pts
 			(xy 71.12 236.22) (xy 71.12 241.3)
 		)
 		(stroke
@@ -10137,16 +9535,6 @@
 			(type default)
 		)
 		(uuid "fa896298-dacf-4ecb-a56f-95bcd19de841")
-	)
-	(wire
-		(pts
-			(xy 392.43 153.67) (xy 392.43 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe8f1e1-d4ed-4905-b817-25255889d33d")
 	)
 	(wire
 		(pts
@@ -10301,28 +9689,6 @@
 		(uuid "0e3d763f-d220-4c79-b183-7dea39c10cbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 345.2367 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL_SHT4"
-		(shape input)
-		(at 361.95 156.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0f224e3a-7905-4f14-9e09-b540b667f4ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 349.7725 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10570,28 +9936,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 391.16 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5366cc6b-341a-4455-9953-3716974b85c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 397.7133 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -11300,28 +10644,6 @@
 			)
 		)
 	)
-	(global_label "SCL_SHT4"
-		(shape input)
-		(at 375.92 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c225dcc5-6064-4352-8136-a8f5e825f914")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.7425 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOSI"
 		(shape input)
 		(at 69.85 200.66 180)
@@ -11454,28 +10776,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 360.68 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "db1365f5-17d6-46b0-bf28-ecf5297b0cba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 354.1872 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BOOT"
 		(shape input)
 		(at 213.36 88.9 180)
@@ -11561,72 +10861,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 392.43 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01f511db-08b5-4ee5-818b-7c68d5ed5ae0")
-		(property "Reference" "#PWR055"
-			(at 392.43 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 392.43 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 392.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 392.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 392.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "925e05d6-ba49-4ac1-b25c-7c090f5f1b24")
-		)
-		(instances
-			(project "Cansat_v1"
-				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
-					(reference "#PWR055")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -12405,7 +11639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 237.49 26.67 0)
 			(effects
 				(font
@@ -12439,72 +11673,6 @@
 			(project ""
 				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 400.05 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11b2fd5f-7e83-4ae3-bc14-37c0a6a3e349")
-		(property "Reference" "#PWR056"
-			(at 400.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 400.05 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 400.05 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 400.05 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 400.05 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3a8ae64-e8ad-4b74-80ac-3506c7a475bf")
-		)
-		(instances
-			(project "Cansat_v1"
-				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -13391,7 +12559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 237.49 40.64 0)
 			(effects
 				(font
@@ -15358,72 +14526,6 @@
 			(project "Cansat_v1"
 				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 375.92 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b6033c5-4160-4c05-9974-81311cfe6d09")
-		(property "Reference" "#PWR054"
-			(at 375.92 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 375.92 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 375.92 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45472e12-09b5-4bd0-bca7-ff6ba3d5b60f")
-		)
-		(instances
-			(project "Cansat_v1"
-				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -17527,132 +16629,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:SHT40-AD1B-R2")
-		(at 361.95 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f41c633-60ce-4704-8e98-9412ef9f2153")
-		(property "Reference" "IC6"
-			(at 374.65 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SHT40-AD1B-R2"
-			(at 374.65 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:SHT40AD1BR2"
-			(at 383.54 248.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.dk/datasheet/2/682/Sensirion_10272020_Datasheet_SHT4x-1919523.pdf"
-			(at 383.54 348.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "4th Generation, High-Accuracy, Ultra Low Power, 16-Bit Relative Humidity and Temperature Sensor Platform"
-			(at 361.95 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.59"
-			(at 383.54 548.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "403-SHT40-AD1B-R2"
-			(at 383.54 648.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Sensirion/SHT40-AD1B-R2?qs=zW32dvEIR3scTT6A4VuzaQ%3D%3D"
-			(at 383.54 748.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Sensirion"
-			(at 383.54 848.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SHT40-AD1B-R2"
-			(at 383.54 948.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48cf1a7e-1f2f-42c7-aaa4-c168a74695c0")
-		)
-		(pin "2"
-			(uuid "d75d39ed-c8fc-484f-9d1e-8d74cd55d1ba")
-		)
-		(pin "3"
-			(uuid "99973762-9969-4f6b-963b-4f3c61c138fa")
-		)
-		(pin "4"
-			(uuid "82858318-87cb-4f84-b91b-43fb6472a8d8")
-		)
-		(instances
-			(project ""
-				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
-					(reference "IC6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 140.97 52.07 0)
 		(unit 1)
@@ -18023,7 +16999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 229.87 26.67 0)
 			(effects
 				(font
@@ -18157,7 +17133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 228.6 40.64 0)
 			(effects
 				(font
@@ -19647,146 +18623,6 @@
 			(project ""
 				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:STCC4-D-R3")
-		(at 360.68 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3bab331-c557-40cf-b554-634fbf7e1233")
-		(property "Reference" "IC5"
-			(at 378.0633 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STCC4-D-R3"
-			(at 378.0633 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:STCC4DR3"
-			(at 387.35 201.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://sensirion.com/media/documents/6AED4B15/684A889C/CD_DS_STCC4_D1_3.pdf"
-			(at 387.35 301.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Air Quality Sensors STCC4-D-R3 CO2 I2C, SMD ToR 1500 pcs 2.7V ~ 5.5V 950A 10C ~ 40C"
-			(at 360.68 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.32"
-			(at 387.35 501.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 387.35 601.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 387.35 701.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Sensirion"
-			(at 387.35 801.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "STCC4-D-R3"
-			(at 387.35 901.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "d0621b0b-d741-43cb-942c-b4c488b08a2c")
-		)
-		(pin "3"
-			(uuid "3fecf249-c454-41c7-a4aa-e2473673bd3e")
-		)
-		(pin "8"
-			(uuid "b742573e-af21-4df5-8858-86033e63b646")
-		)
-		(pin "2"
-			(uuid "50704ec7-c311-47df-9ea2-f7454efe871b")
-		)
-		(pin "4"
-			(uuid "fbad6515-33ad-4498-a1f2-07ac80636aab")
-		)
-		(pin "7"
-			(uuid "dd0211d2-81f4-451f-881a-f8486dc7c3a8")
-		)
-		(pin "1"
-			(uuid "65903d69-89a6-4a4d-888e-10c79b9be879")
-		)
-		(pin "5"
-			(uuid "46e2f047-593c-4ef3-a901-d291cc915f54")
-		)
-		(instances
-			(project ""
-				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
-					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -21938,72 +20774,6 @@
 			(project "Cansat_v1"
 				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 360.68 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e95e213a-78f8-4e10-a6bd-a407832e43d1")
-		(property "Reference" "#PWR053"
-			(at 360.68 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 360.68 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 360.68 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 360.68 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "564ed096-b417-424e-beaf-b7decf26d5d1")
-		)
-		(instances
-			(project "Cansat_v1"
-				(path "/18d5f2ce-1352-46f2-8263-718c8f7c4b8a"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
